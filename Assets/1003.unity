@@ -239,19 +239,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0058645667
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0012309161
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.97865754
+      value: -0.97867423
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.20541082
+      value: -0.20541854
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -259,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.313
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 794ad7023a804808827dbb70edbd4686, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed093621d8d342e9b74c757be4c323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackerCam: {fileID: 0}
+  trackerCam: {fileID: 540340421322071814}
   imageTargets:
   - id: logo_slogan
     transform: {fileID: 7651871110843451921}
@@ -425,7 +425,7 @@ MonoBehaviour:
   trackedIds: []
   trackerSettings:
     maxSimultaneousTargets: 1
-    targetFrameRate: 60
+    targetFrameRate: -1
     advancedSettings:
       maxFrameLength: 500
       maxFrameArea: 80
